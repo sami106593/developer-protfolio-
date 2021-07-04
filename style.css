@@ -1,0 +1,31 @@
+body{
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+h1{
+    font-size: 60px;
+}
+.gray-color{
+    color: gray;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+ width: 60%;
+}
+.link-button{
+    text-decoration: none;
+  background-image: linear-gradient(orange,tomato );
+color: white;
+font-weight:initial;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.top-banner{
+    background-image: url(world war 2/hand-painted-watercolor-background-with-sky-clouds-shape.jpg);
+    background-repeat: no-repeat;
+}
