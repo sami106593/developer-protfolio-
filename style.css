@@ -1,5 +1,6 @@
 body{
     font-family: 'Goudy Bookletter 1911', serif;
+    background-image: url(images.jpg);
 }
 h1{
     font-size: 60px;
@@ -7,8 +8,9 @@ h1{
 .gray-color{
     color: gray;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -28,4 +30,29 @@ font-weight:initial;
 .top-banner{
     background-image: url(world war 2/hand-painted-watercolor-background-with-sky-clouds-shape.jpg);
     background-repeat: no-repeat;
+} 
+.turner img{
+    width: 100%;
+}
+.turner{
+    width: 50%;
+    padding-right: 10%;
+    background-repeat: no-repeat;
+}
+.experience-item{
+    box-shadow: 10px 10px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 20px;
+    border-left: 10px solid;
+}
+#web-ex-item{
+    border-left: 7px solid;
+  border-image:linear-gradient(blue,cyan) ;
+  border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
